@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="9px" viewBox="0 0 15 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>cheveron-down</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Mobile-nav" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Roboto-Regular, Roboto" font-size="36" font-weight="normal">
+        <g id="mobile-nav-–-drop-down-closed" transform="translate(-175.000000, -83.000000)" fill="#FFFFFF">
+            <g id="cheveron-down" transform="translate(159.000000, 74.000000)">
+                <text id="‹" transform="translate(21.000000, 9.500000) rotate(-90.000000) translate(-21.000000, -9.500000) ">
+                    <tspan x="11.5" y="21.5">‹</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

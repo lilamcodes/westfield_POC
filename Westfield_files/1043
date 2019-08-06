@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="39px" viewBox="0 0 22 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Microphone</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Menu-With-Icons-Copy-3" transform="translate(-649.000000, -73.000000)" stroke="#EB3300">
+            <g id="Microphone" transform="translate(650.000000, 74.000000)">
+                <path d="M1.73222727,15.3576932 L0.340409091,15.3576932 L0.340409091,18.1503579 C0.340409091,23.7875834 3.512,28.3576932 10,28.3576932 C16.488,28.3576932 19.5635909,23.7875834 19.5635909,18.1503579 L19.5635909,15.3576932 L18.1904091,15.3576932" id="Stroke-1"></path>
+                <path d="M10,24.8206068 C5.66509091,24.8206068 3.41618182,22.510675 3.41618182,19.6612886 L3.41618182,5.55131136 C3.41618182,2.70140227 5.66509091,0.391470455 10,0.391470455 C14.3349091,0.391470455 16.488,2.70140227 16.488,5.55131136 L16.488,19.6612886 C16.488,22.510675 14.3349091,24.8206068 10,24.8206068 Z" id="Stroke-3"></path>
+                <path d="M9.95195455,30.1867159 L9.95195455,36.8645568" id="Stroke-5"></path>
+                <path d="M5.569,36.8647659 L14.3349091,36.8647659" id="Stroke-7"></path>
+                <path d="M13.0434783,11.5 L16.3921348,11.5" id="Stroke-9"></path>
+                <path d="M3.62100593,15.5 L16.3921348,15.5" id="Stroke-9-Copy"></path>
+                <path d="M13.0434783,5.5 L16.3921348,5.5" id="Stroke-13"></path>
+                <path d="M13.0434783,8.5 L16.3921348,8.5" id="Stroke-15"></path>
+                <path d="M3.62100593,11.5 L6.96966245,11.5" id="Stroke-17"></path>
+                <path d="M3.62100593,5.5 L6.96966245,5.5" id="Stroke-21"></path>
+                <path d="M3.62100593,8.5 L6.96966245,8.5" id="Stroke-23"></path>
+            </g>
+        </g>
+    </g>
+</svg>

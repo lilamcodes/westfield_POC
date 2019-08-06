@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="354px" height="177px" viewBox="0 0 354 177" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>sunburst</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.8175 0.083 167.0195 0.083 167.0195 83.1377 0.8175 83.1377"></polygon>
+    </defs>
+    <g id="Superhub-Hero" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.7">
+        <g id="Component,-desktop,-superhub,-hero" transform="translate(-447.000000, -1.000000)">
+            <g id="Hero">
+                <g id="sunburst" transform="translate(447.000000, 0.000000)">
+                    <g id="Group-3" transform="translate(93.000000, 0.917000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M0.8175,0.0827 C0.8435,45.9567 38.0385,83.1377 83.9185,83.1377 C129.7975,83.1377 166.9935,45.9567 167.0195,0.0827 L0.8175,0.0827 Z" id="Fill-1" fill="#FEFEFE" mask="url(#mask-2)"></path>
+                    </g>
+                    <path d="M125.0882,126.0886 L51.7852,52.7856 L51.7852,126.0886 L125.0882,126.0886 Z M302.0522,52.7856 L228.7482,126.0886 L302.0522,126.0886 L302.0522,52.7856 Z" id="Fill-4" fill="#FEFEFE"></path>
+                    <path d="M302.0499,0.9995 L302.0499,52.7825 L353.8389,0.9995 L302.0499,0.9995 Z M-0.0001,0.9995 L51.7879,52.7825 L51.7879,0.9995 L-0.0001,0.9995 Z M125.0879,126.0875 L176.9179,177.9165 L228.7509,126.0875 L125.0879,126.0875 Z" id="Fill-5" fill="#FEFEFE"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Chat Widget Demo</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no"/>
+  <link type="image/x-icon" rel="icon" href="favicon.ico"/>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"/>
+  <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans"/>
+  <style type="text/css">
+    body {
+      font-family: 'IBM Plex Sans', sans-serif;
+    }
+
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    .container {
+      max-width: 960px;
+    }
+
+    /*
+     * Custom translucent site header
+     */
+
+    .site-header {
+      background-color: rgba(0, 0, 0, .85);
+      -webkit-backdrop-filter: saturate(180%) blur(20px);
+      backdrop-filter: saturate(180%) blur(20px);
+    }
+
+    .site-header a {
+      color: #999;
+      transition: ease-in-out color .15s;
+    }
+
+    .site-header a:hover {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    /*
+     * Dummy devices (replace them with your own or something else entirely!)
+     */
+
+    .product-device {
+      position: absolute;
+      right: 10%;
+      bottom: -30%;
+      width: 300px;
+      height: 540px;
+      background-color: #333;
+      border-radius: 21px;
+      -webkit-transform: rotate(30deg);
+      transform: rotate(30deg);
+    }
+
+    .product-device::before {
+      position: absolute;
+      top: 10%;
+      right: 10px;
+      bottom: 10%;
+      left: 10px;
+      content: "";
+      background-color: rgba(255, 255, 255, .1);
+      border-radius: 5px;
+    }
+
+    .product-device-2 {
+      top: -25%;
+      right: auto;
+      bottom: 0;
+      left: 5%;
+      background-color: #e5e5e5;
+    }
+
+
+    /*
+     * Extra utilities
+     */
+
+    .flex-equal > * {
+      -ms-flex: 1;
+      flex: 1;
+    }
+
+    @media (min-width: 768px) {
+      .flex-md-equal > * {
+        -ms-flex: 1;
+        flex: 1;
+      }
+    }
+
+    .overflow-hidden {
+      overflow: hidden;
+    }
+
+    .image-bg {
+      background-repeat: no-repeat;
+      background-position: center center;
+      position: relative;
+      text-align: center;
+      color: #ffffff;
+      padding-top: 9rem;
+      padding-bottom: 9rem;
+    }
+
+    .image-bg p {
+      margin-bottom: 0;
+    }
+
+    .image-person {
+      position: absolute;
+      right: 40px;
+      bottom: -50%;
+      height: 150%;
+    }
+  </style>
+  <!-- ACA Widget Scripts -->
+  <script type="text/javascript">
+    window.Widget = { options:
+      { 
+        title:'Watson',
+        url: 'https://wf-incontact-app-poc.mybluemix.net/chat',
+        startText:'Talk to Bot',
+        continueText:'Continue Chat',
+        muted:!1,
+        minimized:!1,
+        width:376,
+        height:576,
+        css:'custom.widget.min.css',
+        customCss:'custom.chat.min.css'
+      }
+    };
+  </script>
+  <script type="text/javascript" src="https://wf-incontact-app-poc.mybluemix.net/widget.min.js"></script>
+</head>
+<body>
+<nav class="site-header sticky-top py-1">
+  <div class="container d-flex flex-column flex-md-row justify-content-between">
+    <a class="py-2 d-none d-md-inline-block" href="#">Tour</a>
+    <a class="py-2 d-none d-md-inline-block" href="#">Product</a>
+    <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
+    <a class="py-2 d-none d-md-inline-block" href="#">Enterprise</a>
+    <a class="py-2 d-none d-md-inline-block" href="#">Support</a>
+    <a class="py-2 d-none d-md-inline-block" href="#">Pricing</a>
+  </div>
+</nav>
+<div class="position-relative overflow-hidden m-md-3 bg-light">
+  <div id="carousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active image-bg text-center" style="background-image: url('images/slide-bg2.jpg');">
+        <img class="image-person" src="images/member2.png"/>
+        <h2>SAMPLE HR SYSTEMS</h2>
+        <p class="lead">Workday, Healthier Together, Recognize!<br/>Careers & Cornerstone Learning</p>
+      </div>
+      <div class="carousel-item image-bg text-center" style="background-image: url('images/slide-bg3.jpg');">
+        <img class="image-person" src="images/member3.png"/>
+        <h2>SAMPLE HR SYSTEMS</h2>
+        <p class="lead">Workday, Healthier Together, Recognize!<br/>Careers & Cornerstone Learning</p>
+      </div>
+      <div class="carousel-item image-bg text-center" style="background-image: url('images/slide-bg.jpg');">
+        <img class="image-person" src="images/member1.png"/>
+        <h2>SAMPLE HR SYSTEMS</h2>
+        <p class="lead">Workday, Healthier Together, Recognize!<br/>Careers & Cornerstone Learning</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+  <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+    <div class="my-3 py-3">
+      <h2 class="display-5">HR News & Information | March 27, 2019</h2>
+      <p class="lead">HR News & Information, our biweekly newsletter for...</p>
+    </div>
+    <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+  </div>
+  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+    <div class="my-3 p-3">
+      <h2 class="display-5">The Free Cash Flow RSU Incentive</h2>
+      <p class="lead">Here's how it works...</p>
+    </div>
+    <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+  </div>
+</div>
+<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+    <div class="my-3 p-3">
+      <h2 class="display-5">U.S. PTO Deadline Reminder</h2>
+      <p class="lead">U.S. PTO Must be recorded by April 16. 2019...</p>
+    </div>
+    <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+  </div>
+  <div class="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+    <div class="my-3 py-3">
+      <h2 class="display-5">FY19 Incentive Plan (MIP): Goals</h2>
+      <p class="lead">Learn about MIP goals and why they matter..</p>
+    </div>
+    <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+  </div>
+</div>
+<footer class="container py-5">
+  <div class="row">
+    <div class="col-6 col-md">
+      <h5>Features</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted" href="#">Cool stuff</a></li>
+        <li><a class="text-muted" href="#">Random feature</a></li>
+        <li><a class="text-muted" href="#">Team feature</a></li>
+        <li><a class="text-muted" href="#">Stuff for developers</a></li>
+        <li><a class="text-muted" href="#">Another one</a></li>
+        <li><a class="text-muted" href="#">Last time</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Resources</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted" href="#">Resource</a></li>
+        <li><a class="text-muted" href="#">Resource name</a></li>
+        <li><a class="text-muted" href="#">Another resource</a></li>
+        <li><a class="text-muted" href="#">Final resource</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Resources</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted" href="#">Business</a></li>
+        <li><a class="text-muted" href="#">Education</a></li>
+        <li><a class="text-muted" href="#">Government</a></li>
+        <li><a class="text-muted" href="#">Gaming</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5>About</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted" href="#">Team</a></li>
+        <li><a class="text-muted" href="#">Locations</a></li>
+        <li><a class="text-muted" href="#">Privacy</a></li>
+        <li><a class="text-muted" href="#">Terms</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>

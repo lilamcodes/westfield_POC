@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="40px" viewBox="0 0 52 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Performance</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Size-Up-Option" transform="translate(-324.000000, -827.000000)">
+            <g id="Performance" transform="translate(325.000000, 828.000000)">
+                <g id="Group" stroke="#F05136" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M28,29.5 C28,31.4338311 26.4320288,33 24.5,33 C22.5673704,33 21,31.4338311 21,29.5 C21,27.5661689 22.5673704,26 24.5,26 C26.4320288,26 28,27.5661689 28,29.5 Z" id="Stroke-1"></path>
+                    <path d="M27,27 L41,13" id="Stroke-3"></path>
+                    <path d="M39,10.4247953 C35.4994101,7.0694424 30.7562226,5 25.5203357,5 C14.740306,5 6,13.7310578 6,24.5003188 C6,26.7826982 6.4122846,28.964347 7.13410177,31" id="Stroke-5"></path>
+                    <path d="M45.7870312,38 C48.4475524,34.1181259 50,29.4504348 50,24.4286602 C50,10.9368338 38.8073744,0 25,0 C11.1926256,0 0,10.9368338 0,24.4286602 C0,29.4504348 1.55308328,34.1181259 4.21296885,38 L45.7870312,38 Z" id="Stroke-7"></path>
+                </g>
+                <g id="Group-19" transform="translate(0.000000, 20.000000)"></g>
+            </g>
+        </g>
+    </g>
+</svg>
